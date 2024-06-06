@@ -7,7 +7,7 @@ os.system('title Deadhook - Config')
 done = 1
 messages = ''
 try:
-    with open('messages.txt') as f:
+    with open('kira runs u') as f:
         messages = f.read()
 except:
     print('\u001b[0m\u001b[31m[\u001b[0m-\u001b[31m] Failed! \u001b[33mCould not find "messages.txt", did you remove it?')
